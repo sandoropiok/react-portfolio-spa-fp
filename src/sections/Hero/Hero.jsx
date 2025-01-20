@@ -1,14 +1,15 @@
-import styles from "../styles/HeroStyles.module.css";
-import heroImg from "../assets/Hero-img.png";
-import sun from "../assets/sun.svg";
-import moon from "../assets/moon.svg";
-import twitterLight from "../assets/twitter-light.svg";
-import twitterDark from "../assets/twitter-dark.svg";
-import githubLight from "../assets/github-light.svg";
-import githubDark from "../assets/github-dark.svg";
-import linkedinLight from "../assets/linkedin-light.svg";
-import linkedinDark from "../assets/linkedin-dark.svg";
-import { useTheme } from "./ThemeContext";
+import styles from "./HeroStyles.module.css";
+import heroImg from "../../assets/Hero-img.png";
+import sun from "../../assets/sun.svg";
+import moon from "../../assets/moon.svg";
+import twitterLight from "../../assets/twitter-light.svg";
+import twitterDark from "../../assets/twitter-dark.svg";
+import githubLight from "../../assets/github-light.svg";
+import githubDark from "../../assets/github-dark.svg";
+import linkedinLight from "../../assets/linkedin-light.svg";
+import linkedinDark from "../../assets/linkedin-dark.svg";
+import CV from "../../assets/CV(Resume).pdf";
+import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -41,13 +42,16 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://x.com/sandoropiok" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/sandoropiok" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/sandor-opiok-720174348/"
+            target="_blank"
+          >
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>

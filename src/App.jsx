@@ -1,15 +1,13 @@
-import "./App.css";
-import Header from "./components/Header";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import './App.css';
+import Contact from './sections/Contact/Contact';
+import Footer from './sections/Footer/Footer';
+import Hero from './sections/Hero/Hero';
+import Projects from './sections/Projects/Projects';
+import Skills from './sections/Skills/Skills';
 
 function App() {
   return (
     <>
-      <Header />
       <Hero />
       <Projects />
       <Skills />
