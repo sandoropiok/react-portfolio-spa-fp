@@ -1,6 +1,7 @@
 # Portfolio Website Project
 
-This is the final project for my **Frontend Development** course. It is a personal portfolio website, designed and developed to showcase my skills, projects, and experience as a frontend developer.
+This is the final project for my **Frontend Development** course. It is a personal portfolio website, designed and developed to showcase my skills, projects, and experience as a frontend developer.     
+Chek [here](https://sandor-opiok-portfolio.netlify.app/).
 
 ## Key Features
 
