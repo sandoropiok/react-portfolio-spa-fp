@@ -19,7 +19,7 @@
 }
 
 .nav-link {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Rubik", sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   color: var(--text-color);
@@ -39,4 +39,10 @@
 .header.dark {
   --text-color: #f5f5f5;
   --highlight-color: #007bff;
+}
+
+@media (width >= 800px) {
+  .nav-link {
+    font-size: 22px;
+  }
 }
