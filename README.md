@@ -13,8 +13,8 @@ Chek [here](https://sandor-opiok-portfolio.netlify.app/).
      - `useContext` and `useTheme` to manage themes and shared application context.
 
 2. **Styling**:
-   - The website is styled entirely with **pure CSS** for responsiveness and visual appeal.
-   - The layout ensures compatibility across different screen sizes and devices.
+   - The website is styled entirely with ```module.css```, leveraging scoped and modular CSS for responsiveness and visual appeal.
+   - The layout is designed to ensure compatibility across different screen sizes and devices while maintaining isolated and reusable component-level styles.
 
 3. **Modern Design**:
    - The design features a sleek, dark theme with professional typography and visual elements.
